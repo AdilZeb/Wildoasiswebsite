@@ -8,7 +8,7 @@ export const metadata = {
 }
 const Cabins
  =  ({searchParams}) => {
-  console.log(searchParams);
+  
   const filter= searchParams?.capacity ?? "all";
   return (
     <div>
